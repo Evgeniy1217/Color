@@ -1,0 +1,9 @@
+.clickMe{
+    text-align: center;
+    background-color: #29DAF5;
+    border: 5px solid #91F1F5;
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 150px;
+    font: 20pt/60pt sans-serif;
+}
