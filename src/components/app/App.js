@@ -8,22 +8,23 @@ function App() {
 
     return (
         <Router>
-    <div className="App">
-        <div className="d-flex">
-            <div className="clickMe">
-                <NavLink to="/">Перечень и удаление градиентов</NavLink>
+            <div className="App">
+                <div className="d-flex">
+                    <div className="clickMe">
+                        <NavLink to="/">Перечень и удаление градиентов</NavLink>
+                    </div>
+                    <div className="clickMe">
+                        <NavLink to="/new">Добавить новый градиент</NavLink>
+                    </div>
+                </div>
+                <Switch>
+                    <Route exact path="/"><Home/></Route>
+                    <Route path="/new"><New/></Route>
+                    <Redirect to="/"/>
+                </Switch>
             </div>
-            <div className="clickMe" >
-                <NavLink to="/new">Добавить новый градиент</NavLink>
-            </div>
-        </div>
-       <Switch>
-            <Route exact path="/"><Home /></Route>
-            <Route path="/new" ><New /></Route>
-            <Redirect to="/"/>
-        </Switch>
-    </div>
-    </Router>
-  );
+        </Router>
+    );
 }
+
 export default App;

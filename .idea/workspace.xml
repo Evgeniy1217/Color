@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="496f01ea-43f9-4160-8148-ef0e3f05d87a" name="Default Changelist" comment="" />
+    <list default="true" id="496f01ea-43f9-4160-8148-ef0e3f05d87a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/new/New.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/new/New.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/fillGradientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/fillGradientReducer.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20oMycEAgq34uZegICgAM4ZavLE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,11 +54,23 @@
       <updated>1636706744006</updated>
       <workItem from="1636706747562" duration="270000" />
       <workItem from="1636707020872" duration="717000" />
-      <workItem from="1636708139780" duration="9916000" />
+      <workItem from="1636708139780" duration="10541000" />
+      <workItem from="1636968411710" duration="2860000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
