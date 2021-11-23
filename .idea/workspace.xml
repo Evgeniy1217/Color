@@ -4,9 +4,9 @@
     <list default="true" id="496f01ea-43f9-4160-8148-ef0e3f05d87a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/new/New.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/new/New.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/fillGradientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/fillGradientReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,18 @@
       <workItem from="1636707020872" duration="717000" />
       <workItem from="1636708139780" duration="10541000" />
       <workItem from="1636968411710" duration="2860000" />
+      <workItem from="1636974751212" duration="609000" />
+      <workItem from="1636977093396" duration="11000" />
+      <workItem from="1636977403585" duration="596000" />
+      <workItem from="1636980419431" duration="5000" />
+      <workItem from="1636980713046" duration="74000" />
+      <workItem from="1636980826733" duration="898000" />
+      <workItem from="1636983222978" duration="1480000" />
+      <workItem from="1636990293764" duration="637000" />
+      <workItem from="1637044503512" duration="3459000" />
+      <workItem from="1637048127104" duration="218000" />
+      <workItem from="1637325217833" duration="2399000" />
+      <workItem from="1637654050033" duration="2632000" />
     </task>
     <servers />
   </component>
@@ -67,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -11,7 +11,7 @@ function App() {
             <div className="App">
                 <div className="d-flex">
                     <div className="clickMe">
-                        <NavLink to="/">Перечень и удаление градиентов</NavLink>
+                        <NavLink to="/">Список, удаление градиентов</NavLink>
                     </div>
                     <div className="clickMe">
                         <NavLink to="/new">Добавить новый градиент</NavLink>

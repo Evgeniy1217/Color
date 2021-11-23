@@ -1,3 +1,4 @@
+import React, {useState} from "react"
 import {useDispatch, useSelector} from "react-redux";
 import {useHistory} from "react-router-dom";
 import {addGradientActionL, addGradientActionR} from "../../store/fillGradientReducer";
@@ -8,6 +9,8 @@ const New = () => {
     const gradientL = useSelector(state => state.gradient.statusL)
     const gradientR = useSelector(state => state.gradient.statusR)
     const history = useHistory()
+
+    const valid ="^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})"
 
     const setGradientL = (e) => {
         const statusL = [e.target.value];
@@ -34,7 +37,7 @@ const New = () => {
         dispatch(addGradientActionR(differentColorR))
     }
 
-    const handleSubmitL = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault()
         addColorL(gradientL)
         addColorR(gradientR)
@@ -45,17 +48,19 @@ const New = () => {
     }
 
     return (
-        <form className="was-validated" onSubmit={handleSubmitL}>
+        <form className="was-validated" onSubmit={handleSubmit}>
             <div className="container">
                 <div className="row">
                     <div className="col-6">
                         <input onChange={setGradientL} required
-                               placeholder="введите hex-код в формате # и 3 или 6 цифр или a-f букв"
+                               pattern={valid}
+                               placeholder="hex-код в формате # и 3 или 6 цифр или a-f букв"
                                type="text" className="form-control"></input>
                     </div>
                     <div className="col-6">
                         <input onChange={setGradientR} required
-                               placeholder="введите hex-код в формате # и 3 или 6 цифр или a-f букв"
+                               pattern={valid}
+                               placeholder="hex-код в формате # и 3 или 6 цифр или a-f букв"
                                type="text" className="form-control"></input>
                     </div>
                     <div className="d-grid gap-2 col-6 mx-auto">

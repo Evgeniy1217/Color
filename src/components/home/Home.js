@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {deleteGradientActionL, deleteGradientActionR} from "../../store/fillGradientReducer"
+import {deleteGradientActionL, deleteGradientActionR} from "../../store/fillGradientReducer";
 
 const Home = () => {
     const dispatch = useDispatch()
