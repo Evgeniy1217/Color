@@ -1,30 +1,23 @@
 import New from "../new/New";
 import Home from "../home/Home";
+import Edit from "../new/edit/Edit";
 import "./app.css"
-
-import {BrowserRouter as Router, Switch, Route, NavLink, Redirect} from "react-router-dom";
+import {Routes, Route, Link} from "react-router-dom";
 
 function App() {
-
     return (
-        <Router>
-            <div className="App">
-                <div className="d-flex">
-                    <div className="clickMe">
-                        <NavLink to="/">Список, удаление градиентов</NavLink>
-                    </div>
-                    <div className="clickMe">
-                        <NavLink to="/new">Добавить новый градиент</NavLink>
-                    </div>
-                </div>
-                <Switch>
-                    <Route exact path="/"><Home/></Route>
-                    <Route path="/new"><New/></Route>
-                    <Redirect to="/"/>
-                </Switch>
-            </div>
-        </Router>
+        <div className="App ">
+            <nav className="nav nav-fill bg-secondary justify-content-center">
+                <Link className="nav-link display-6 p-2 text-white" to="/">home</Link>
+                <Link className="nav-link display-6 p-2 text-white" to="/new">new</Link>
+                <Link className="nav-link display-6 p-2 text-white" to="/edit">edit</Link>
+            </nav>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/new" element={<New/>}/>
+                <Route path="/edit" element={<Edit/>}/>
+            </Routes>
+        </div>
     );
 }
-
 export default App;

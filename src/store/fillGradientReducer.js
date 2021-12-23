@@ -4,7 +4,6 @@ const defaultState = {
     gradientL: [],
     gradientR: []
 }
-
 const STATUS_L = "STATUS_L"
 const STATUS_R = "STATUS_R"
 const ADD_GRADIENT_L = "ADD_GRADIENT_L"
@@ -29,8 +28,7 @@ export const fillGradientReducer = (state = defaultState, action) => {
 
         default:
             return state
-    }
-}
+    }}
 
 export const addGradientActionL = (payload) => ({type: "ADD_GRADIENT_L", payload})
 export const addGradientActionR = (payload) => ({type: "ADD_GRADIENT_R", payload})
