@@ -1,8 +1,8 @@
-import React, {useState} from "react"
+import React from "react"
 import {useDispatch, useSelector} from "react-redux";
 import {useNavigate} from "react-router-dom";
 import {addGradientActionL, addGradientActionR} from "../../store/fillGradientReducer";
-import './new.css'
+import "./new.css"
 
 const New = () => {
     const dispatch = useDispatch()
@@ -13,12 +13,10 @@ const New = () => {
     const valid = "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})"
 
     const setGradientL = (e) => {
-       const statusL = e.target.value;
-        dispatch({type: "STATUS_L", payload: statusL})
+        dispatch({type: "STATUS_L", payload: e.target.value})
     }
     const setGradientR = (e) => {
-        const statusR = e.target.value;
-        dispatch({type: "STATUS_R", payload: statusR})
+        dispatch({type: "STATUS_R", payload:e.target.value})
     }
 
     const addColorL = (gradientsL) => {
@@ -47,18 +45,20 @@ const New = () => {
                     <div className="col-6">
                         <input onChange={setGradientL} required
                                pattern={valid}
-                               placeholder="hex-код в формате # и 3 или 6 цифр или a-f букв"
+                               placeholder="hex-код в формате # и 3 или 6 цифр или aA-fF букв"
                                type="text"
-                               className="form-control">
-                        </input>
+                               className="form-control"
+                        />
+
                     </div>
                     <div className="col-6">
                         <input onChange={setGradientR} required
                                pattern={valid}
-                               placeholder="hex-код в формате # и 3 или 6 цифр или a-f букв"
+                               placeholder="hex-код в формате # и 3 или 6 цифр или aA-fF букв"
                                type="text"
-                               className="form-control">
-                        </input>
+                               className="form-control"
+                        />
+
                     </div>
                     <div className="d-grid gap-2 col-6 mx-auto">
                         <button onClick={()=>navigate(-1)}

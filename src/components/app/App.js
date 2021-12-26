@@ -1,6 +1,6 @@
 import New from "../new/New";
 import Home from "../home/Home";
-import Edit from "../new/edit/Edit";
+import Edit from "../edit/Edit";
 import "./app.css"
 import {Routes, Route, Link} from "react-router-dom";
 
@@ -20,4 +20,5 @@ function App() {
         </div>
     );
 }
+
 export default App;

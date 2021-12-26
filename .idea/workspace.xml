@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="496f01ea-43f9-4160-8148-ef0e3f05d87a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/new/New.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/new/New.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/new/edit/Edit.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/fillGradientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/fillGradientReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +32,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\color\src\components\new" />
+      <recent name="D:\Projects\color\src\components" />
+      <recent name="D:\Projects\color\src\components\new\edit" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -49,6 +53,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="a new left-sided gradient should be added" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/store/fillGradientReducer.test.js" />
+      <test-names>
+        <test-name value="a new left-sided gradient should be added" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.a new left-sided gradient should be added" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,7 +106,12 @@
       <workItem from="1640154307190" duration="606000" />
       <workItem from="1640157898825" duration="31105000" />
       <workItem from="1640240736195" duration="1779000" />
-      <workItem from="1640242637291" duration="2338000" />
+      <workItem from="1640242637291" duration="8441000" />
+      <workItem from="1640260486426" duration="5854000" />
+      <workItem from="1640270524131" duration="6487000" />
+      <workItem from="1640323934413" duration="7599000" />
+      <workItem from="1640334798256" duration="3200000" />
+      <workItem from="1640510229324" duration="2202000" />
     </task>
     <servers />
   </component>
